@@ -8,12 +8,10 @@ export default createGlobalStyle`
         padding: 0;
         outline: 0;
         box-sizing: border-box;
-        color: red;
-        font-size:40px;
     }
 
     body {
-        background: #F0F0F5 url(${gitHubBackground}) not-repeat 70% top;
+        background: #F0F0F5 url(${gitHubBackground}) no-repeat 70% top;
         -webkit-font-smoothing: antialiased;
     }
 
