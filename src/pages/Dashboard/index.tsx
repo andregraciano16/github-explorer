@@ -5,8 +5,6 @@ import { FiChevronRight } from 'react-icons/fi';
 import api from '../../services/api';
 
 import logoImg from '../../assets/logo.svg';
-import Repository from '../Repository';
-
 interface Repository {
     full_name: string;
     description: string;
@@ -14,7 +12,6 @@ interface Repository {
         login: string;
         avatar_url: string;
     }
-
 }
 
 const Dashboard: React.FC = () => {
